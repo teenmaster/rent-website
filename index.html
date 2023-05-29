@@ -1,78 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Rent Collection Website</title>
-  <style>
-    /* Reset some default styles */
-    body, html {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-    }
-
-    /* Main container */
-    .container {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-
-    /* Header */
-    .header {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    /* Navigation */
-    .navigation {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    .navigation a {
-      margin-right: 10px;
-      text-decoration: none;
-      color: #333;
-    }
-
-    /* Hero Section */
-    .hero {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    .hero img {
-      width: 300px;
-      height: auto;
-    }
-
-    /* Main content */
-    .content {
-      margin-bottom: 20px;
-    }
-
-    /* Footer */
-    .footer {
-      text-align: center;
-      color: #777;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>ENGA</title>
 </head>
 <body>
-  <div class="container">
+
+  <title>Rent Collection Website</title>
+</head>
+<body>
+  <div class="main-container">
     <header class="header">
-      <h1>Rent Collection Website</h1>
+      <h1>ENGA Rent Collection</h1>
     </header>
+    
 
     <nav class="navigation">
-      <a href="#">Home</a>
-      <a href="#">Properties</a>
-      <a href="#">Payments</a>
-      <a href="#">Contact</a>
+      <button><a href="#">Home</a></button>
+      <button><a href="#">Properties</a></button>
+      <button><a href="#">Payments</a></button>
+      <button><a href="#">Contacts</a></button>
     </nav>
 
     <section class="hero">
-      <img src="rent-collection-logo.png" alt="Rent Collection Logo">
+      <img src="images\logo.png" alt="Rent Collection Logo">
       <h2>Welcome to our Rent Collection Platform</h2>
       <p>Make rent payments and manage your properties easily.</p>
     </section>
@@ -88,12 +42,16 @@
         <li>Document storage</li>
       </ul>
       <p>Sign up today and streamline your rent collection process.</p>
-      <a href="signup.html" class="button">Sign Up</a>
+      <div class="sign">
+        <div  class="button-1"><a href="signup.html">Sign Up</a></div>
+        <div class="button-2"><a href="login.html">Log In</a></div>
+      </div>
     </main>
 
     <footer class="footer">
       &copy; 2023 Rent Collection Website. All rights reserved.
     </footer>
   </div>
+  
 </body>
 </html>
