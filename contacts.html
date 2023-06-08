@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+     Our contacts
+  </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html {
+  box-sizing: border-box;
+  background-color: #cae9c9;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  text-align: center;
+  margin-bottom: 16px;
+  padding: 0 100px;
+
+}
+.column:hover{
+  background-color: #94c794;
+  border: #c78eaf;
+  border-radius: 8px;
+  cursor: help;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.picha{
+  width:300px;
+  height:500px;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 100%;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.pagetitle{
+    background-color: #0fa968;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    padding:10px;
+}
+
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #0fa968;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+.name{
+    font-size: large;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0fa968;
+}
+.title{
+    font-size: larger;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+}
+</style>
+</head>
+<body>
+
+<h1 class="pagetitle">Meet the service team</h1>
+<br>
+
+
+ <div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="images\nyamburah.jpg" alt="Nyambura" class="picha">
+      <div class="container">
+        <h2 class="name">Nyambura</h2>
+        <p class="title">Agent</p>
+        <p>Contact Nyambura</p>
+        <p>Email : nyambura@gmail.com</p>
+        <p>Call: 0733245674 / 0745231235</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images\kwambai.jpg" alt="Kwambai" class="picha">
+      <div class="container">
+        <h2 class="name">Kwambai</h2>
+        <p class="title">Agent</p>
+        <p>Contact Kwambai </p>
+        <p>Email : kwambai@gmail.com</p>
+        <p>Call: 0756430213 / 0788654732</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="images\ambagwa2.jpg" alt="Ambagwa" class="picha">
+      <div class="container">
+        <h2 class="name">Ambagwa</h2>
+        <p class="title">Agent</p>
+        <p>Contact Ambagwa </p>
+        <p>Email : ambagwa@gmail.com</p>
+        <p>Call: 0765435678 / 0761234569</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
